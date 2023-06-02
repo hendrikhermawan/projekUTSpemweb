@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    
+}
+*::selection{
+    background:#ff702a;
+    color: #fff;
+}
+body{
+    color: #3a3a3a;
+    background:#ffffff;
+     
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 90px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 90px;
+    background: #1e1c2a;
+}
+
+.logo{
+    color: #ff702a;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.navbar button{
+    font-size: 1.1rem;
+    padding: 5px 1px;
+    margin-top: -15px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    transition: transform .2s; 
+    background-color: #ff702a;
+}
+
+.navbar button:hover{
+    background-color: #ff702a;
+    transform: scale(1.1);
+}
+.navbar button a{
+    color: black;
+    padding: 10px;
+}
+
+.navbar button a:hover{
+    color: black;
+    
+}
+.navbar a:hover{
+    color: #ff702a;
+    transition: border-bottom 0.4s ease;
+    
+}
+
+
+section{
+    padding: 90px ;
+}
+
+
+/* home utama */
+.utama {
+    /* width: 100%; */
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5.5rem;
+    align-items: center;
+}
+
+.utama-img img {
+    /* max-width: 100%; */
+    width: 640px;
+    height: auto;
+    margin-top: 90px;
+}
+
+.utama-text h1 {
+    font-size:2rem;
+    color: #ff702a;
+    margin: 0.2rem;
+}
+
+/* home utama */
+.About {
+    /* width: 100%; */
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5.5rem;
+    align-items: center;
+}
+
+.About-img img {
+    /* max-width: 100%; */
+    width: 640px;
+    height: auto;
+    
+}
+
+.About-text h1 {
+    font-size:2rem;
+    color: #ff702a;
+    margin: 0.2rem;
+}
+
+
+/* footer */
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  footer img {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
