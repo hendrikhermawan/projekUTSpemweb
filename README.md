@@ -1,1 +1,1 @@
-# Sek nyobak
+# Sek halaman home page karo ngerapekno footer
