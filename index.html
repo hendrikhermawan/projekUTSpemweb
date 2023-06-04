@@ -1,164 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
+  <body>
+    <!-- Navigasi -->
 
-<body>
-  <!-- Navigasi -->
-
-  <!-- menu logo dan navbar -->
-  <header id="header">
-
-    <a href="#" class="logo">RenCars</a>
-    <ul class="navbar" id="navbar">
-      <li><a href="#About">About</a></li>
-      <li><a href="#Cars">Cars</a></li>
-      <li><a href="#Futures">Futures</a></li>
-      <li><button><a href="#ContactUs">Contact Us</a></button></li>
-    </ul>
-  </header>
-  <!-- menu utama home page -->
-
-
-  <section class="utama" id="utama">
-    <div class="utama-text">
-      <h1>Cari dan temukan
-        mobil Rental terbaik Anda
-        dengan cara mudah</h1>
-      <p>Di sini merupakan tempat penyewaan mobil terlengkap dengan harga
-        terjangkau
-      </p>
-      <div>
-        <button class="tombol">Pesan Pesakarang</button>
-        <button class="tombol2">Lihat Semua Mobil</button>
-      </div>
-
-
-    </div>
-
-
-    <div class="utama-img">
-      <img src="img/Mitsubishi_Pajero_Sport-removebg-preview.png" alt="gambar home">
-    </div>
-  </section>
-
-
-
-  <!-- 7 gambar satu baris -->
-
-  <div class="image-row">
-    <img src="img/BMW Logo.png" alt="Image 1" width="auto" height="120px">
-    <img src="img/Honda logo.jpeg" alt="Image 2" width="auto" height="120px">
-    <img src="img/Nissan Logo.png" alt="Image 3" width="auto" height="120px">
-    <img src="img/Toyota logo.jpeg" alt="Image 4" width="auto" height="120px">
-    <img src="img/Hyundai Logo.jpeg" alt="Image 5" width="auto" height="120px">
-    <img src="img/Daihatsu Logo.jpeg" alt="Image 6" width="auto" height="120px">
-    <img src="img/mitshubisi logo.jpeg" alt="Image 7" width="auto" height="120px">
-  </div>
-
-
-  <!-- menu about us -->
-
-  <section class="About" id="About">
-    <div class="About-img">
-      <img src="img/daihatsu terios.jpeg" alt="gambar home">
-    </div>
-    <div class="About-text">
-      <h1>About Us</h1>
-      <h4>Rencars adalah website rental mobil yang menawarkan berbagai keunggulan bagi para pengguna. Dengan menggunakan
-        Rencars, Anda akan mendapatkan pengalaman yang luar biasa dan fasilitas yang memudahkan dalam menyewa mobil.
-      </h4>
-      <ul>
-        <li>Rencars menawarkan pilihan mobil yang luas, dari sedan hingga SUV, sehingga Anda dapat memilih mobil sesuai
-          kebutuhan.</li>
-        <li>Dengan Rencars, proses pemesanan mobil menjadi sangat mudah dan cepat melalui platform online mereka.</li>
-        <li></li>
-
+    <!-- menu logo dan navbar -->
+    <header id="header">
+      <a href="index.html" class="logo">RenCars</a>
+      <ul class="navbar" id="navbar">
+        <li><a href="#About">About</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="#Futures">News</a></li>
+        <li>
+          <button><a href="#ContactUs">Contact Us</a></button>
+        </li>
       </ul>
+    </header>
+    <!-- menu utama home page -->
 
-    </div>
-
-
-  </section>
-
-  <!-- top mobil minggu ini -->
-  <section class="Cars" id="Cars">
-    <h1>Top Cars On The Week</h1>
-    <p>Setiap mobil telah melewati seleksi ketat berdasarkan kualitas, kinerja, dan kepuasan pelanggan. Pilihlah mobil
-      dari daftar ini
-      <br> untuk pengalaman mengemudi yang luar biasa
-      dan sensasi berkendara yang tak tertandingi.
-    </p>
-    <div class="image-row">
-      <img src="img/Hyundai ix35.jpeg" alt="hyundai" width="auto" height="300px">
-      <img src="img/honda Yaris.jpeg" alt="jazz" width="auto" height="300px">
-    </div>
-  </section>
-
-  <!-- video -->
-  <section class="Futures" id="Futures">
-    <h1 style="font-size: 2rem; padding-bottom: 9px; text-align: center; top: -90px;">Futures</h1>
-  </section>
-  <iframe src="https://www.youtube.com/embed/BATKvswgBEQ" frameborder="0" allowfullscreen></iframe>
-
-
-  <!-- footer -->
-  <footer>
-    <section id="ContactUs">
-
-      <!-- div footer 1 -->
-      <div class="contact-us1">
-        <h2>Layanan</h2>
-        <ul>
-          <li>Rental Mobil Harian</li>
-          <li>Rental Mobil Mingguan</li>
-          <li>Rental Mobil Bulanan</li>
-          <li>Antar-Jemput Bandara</li>
-        </ul>
+    <section class="utama" id="utama">
+      <div class="utama-text">
+        <h1>Cari dan temukan mobil Rental terbaik Anda dengan cara mudah</h1>
+        <p>
+          Di sini merupakan tempat penyewaan mobil terlengkap dengan harga
+          terjangkau
+        </p>
+        <div>
+          <button class="tombol">Pesan Pesakarang</button>
+          <button class="tombol2" onclick="location.href='cars.html'">Lihat Semua Mobil</button>
+        </div>
       </div>
 
-      <!-- div footer 2 -->
-      <div class="contact-us2">
-        <h2>Kebijakan Privasi | Syarat dan Ketentuan</h2>
-        <ul>
-          <li>Rental Mobil Profesional dengan Layanan Terbaik.</li>
-          <li>Menyediakan Armada Terlengkap untuk Perjalanan Anda.</li>
-          <li>Bergabunglah dengan Komunitas Rencars untuk Penawaran Spesial.</li>
-
-        </ul>
+      <div class="utama-img">
+        <img
+          src="img/Mitsubishi_Pajero_Sport-removebg-preview.png"
+          alt="gambar home"
+        />
       </div>
-
-
-
-      <!-- div footer 3 -->
-      <div class="contact-us3">
-        <h2>Contact Us</h2>
-
-        <ul>
-          <li>
-            <img src="img/email.png" alt="Email Logo">
-            <a href="mailto:info@m.com"> info@rentalmobilTelkom.com</a>
-          </li>
-          <li>
-            <img src="img/IG.png" alt="IG Logo">
-            <a href="http//instagram.com">@dho</a>
-          </li>
-          <li>
-            <img src="img/phone.png" alt="Phone Icon">
-            <a href="tel:+6287887300377">+62-878-773-003-77</a>
-          </li>
-        </ul>
-      </div>
-
     </section>
-    <p> © 2023 Rencars. Hak Cipta Dilindungi Undang-Undang.</p>
-  </footer>
 
+    <!-- 7 gambar satu baris -->
 
+    <div class="image-row">
+      <img src="img/BMW Logo.png" alt="Image 1" width="auto" height="120px" />
+      <img
+        src="img/Honda logo.jpeg"
+        alt="Image 2"
+        width="auto"
+        height="120px"
+      />
+      <img
+        src="img/Nissan Logo.png"
+        alt="Image 3"
+        width="auto"
+        height="120px"
+      />
+      <img
+        src="img/Toyota logo.jpeg"
+        alt="Image 4"
+        width="auto"
+        height="120px"
+      />
+      <img
+        src="img/Hyundai Logo.jpeg"
+        alt="Image 5"
+        width="auto"
+        height="120px"
+      />
+      <img
+        src="img/Daihatsu Logo.jpeg"
+        alt="Image 6"
+        width="auto"
+        height="120px"
+      />
+      <img
+        src="img/mitshubisi logo.jpeg"
+        alt="Image 7"
+        width="auto"
+        height="120px"
+      />
+    </div>
+
+    <!-- menu about us -->
+
+    <section class="About" id="About">
+      <div class="About-img">
+        <img src="img/daihatsu terios.jpeg" alt="gambar home" />
+      </div>
+      <div class="About-text">
+        <h1>About Us</h1>
+        <h4>
+          Rencars adalah website rental mobil yang menawarkan berbagai
+          keunggulan bagi para pengguna. Dengan menggunakan Rencars, Anda akan
+          mendapatkan pengalaman yang luar biasa dan fasilitas yang memudahkan
+          dalam menyewa mobil.
+        </h4>
+        <ul>
+          <li>
+            Rencars menawarkan pilihan mobil yang luas, dari sedan hingga SUV,
+            sehingga Anda dapat memilih mobil sesuai kebutuhan.
+          </li>
+          <li>
+            Dengan Rencars, proses pemesanan mobil menjadi sangat mudah dan
+            cepat melalui platform online mereka.
+          </li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- top mobil minggu ini -->
+    <section class="Futures" id="Futures">
+      <h1>Top Cars On The Week</h1>
+      <p>
+        Setiap mobil telah melewati seleksi ketat berdasarkan kualitas, kinerja,
+        dan kepuasan pelanggan. Pilihlah mobil dari daftar ini <br />
+        untuk pengalaman mengemudi yang luar biasa dan sensasi berkendara yang
+        tak tertandingi.
+      </p>
+      <div class="image-row">
+        <img
+          src="img/Hyundai ix35.jpeg"
+          alt="hyundai"
+          width="auto"
+          height="300px"
+        />
+        <img
+          src="img/honda Yaris.jpeg"
+          alt="jazz"
+          width="auto"
+          height="300px"
+        />
+      </div>
+    </section>
+
+    <!-- video -->
+    <iframe
+      width="100%"
+      height="600"
+      src="https://www.youtube.com/embed/BATKvswgBEQ"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+
+    <!-- footer -->
+    <footer>
+      <section id="ContactUs">
+        <!-- div footer 1 -->
+        <div class="contact-us1">
+          <h2>Layanan</h2>
+          <ul>
+            <li>Rental Mobil Harian</li>
+            <li>Rental Mobil Mingguan</li>
+            <li>Rental Mobil Bulanan</li>
+            <li>Antar-Jemput Bandara</li>
+          </ul>
+        </div>
+
+        <!-- div footer 2 -->
+        <div class="contact-us2">
+          <h2>Kebijakan Privasi | Syarat dan Ketentuan</h2>
+          <ul>
+            <li>Rental Mobil Profesional dengan Layanan Terbaik.</li>
+            <li>Menyediakan Armada Terlengkap untuk Perjalanan Anda.</li>
+            <li>
+              Bergabunglah dengan Komunitas Rencars untuk Penawaran Spesial.
+            </li>
+          </ul>
+        </div>
+
+        <!-- div footer 3 -->
+        <div class="contact-us3">
+          <h2>Contact Us</h2>
+
+          <ul>
+            <li>
+              <img src="img/email.png" alt="Email Logo" />
+              <a href="mailto:info@m.com"> info@rentalmobilTelkom.com</a>
+            </li>
+            <li>
+              <img src="img/IG.png" alt="IG Logo" />
+              <a href="http//instagram.com">@dho</a>
+            </li>
+            <li>
+              <img src="img/phone.png" alt="Phone Icon" />
+              <a href="tel:+6287887300377">+62-878-773-003-77</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <p>© 2023 Rencars. Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+  </body>
 </html>
