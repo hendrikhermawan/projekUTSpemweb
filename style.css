@@ -195,23 +195,24 @@ section {
 
 
 /* Futures */
-#Futures{
+#Cars{
   margin-top: -99px;
   justify-content: center;
 }
 
-#Futures h1 {
+#Cars h1 {
+  font-size: 2rem;
   padding-bottom: 12px;
   text-align: center;
 }
-#Futures p{
+#Cars p{
   text-align: center;
   padding: 12px;
   margin: 9px;
 }
 
 
-#Futures .image-row img{
+#Cars .image-row img{
   display: flex;
   justify-content: center;
   padding: 15px;
@@ -219,16 +220,20 @@ section {
   transition: transform 0.2s;
 }
 
-#Futures .image-row img:hover{
+#Cars .image-row img:hover{
   transform: scale(1.02);
 
 }
 
 /* video */
+
 iframe {
   position: relative;
-  top: 304px;
+  top: 400px;
   left: 50%;
+  height: 790px;
+  width: 100%;
+  padding: 0;
   transform: translate(-50%, -50%);
 }
 
@@ -237,14 +242,19 @@ iframe {
 footer {
   background-color: #1e1c2a;
   color: white;
+  height: 90%;
 }
 
 #ContactUs {
   display: flex;
+  position: relative;
+  justify-content: center;
+  
 }
 
 #ContactUs h2 {
   margin-top: 0;
+  padding: 10px;
   padding-bottom: 20px;
 }
 
@@ -252,14 +262,13 @@ footer {
   list-style: none;
   margin: 0;
   padding: 15px;
-  
 }
 
 #ContactUs li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding-bottom: 13px;
+  padding-bottom: 9px;
 }
 
 #ContactUs img {
@@ -269,6 +278,12 @@ footer {
 
 #ContactUs a {
   color: white;
+}
+
+footer p{
+  position: relative;
+  text-align: center;
+  padding-bottom: 9px;
 }
 
 
