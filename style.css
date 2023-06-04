@@ -73,12 +73,9 @@ header {
   transition: border-bottom 0.4s ease;
 }
 
-
-
 section {
   padding: 90px;
 }
-
 
 /* home utama */
 .utama {
@@ -89,7 +86,6 @@ section {
   grid-gap: 5.5rem;
   align-items: center;
 }
-
 
 .utama-img img {
   /* max-width: 100%; */
@@ -106,7 +102,7 @@ section {
   padding-bottom: 20px;
 }
 
-.utama-text .tombol{
+.utama-text .tombol {
   position: relative;
   padding: 10px;
   border-radius: 5px;
@@ -121,19 +117,19 @@ section {
   font-size: 1.09rem;
 }
 
-.utama-text .tombol:hover{
+.utama-text .tombol:hover {
   transform: scale(1.05);
   background-color: #c24a0e;
 }
 
-.utama-text p{
+.utama-text p {
   font-size: 1.2rem;
   color: #1e1c2a;
-  font-weight:300px;
+  font-weight: 300px;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
-.utama-text .tombol2{
+.utama-text .tombol2 {
   position: relative;
   padding: 10px;
   border-radius: 5px;
@@ -146,8 +142,8 @@ section {
   transition: transform 0.2s;
 }
 
-.utama-text .tombol2:hover{
-  background-color:#1e1c2a ;
+.utama-text .tombol2:hover {
+  background-color: #1e1c2a;
   color: #fff;
 }
 
@@ -161,13 +157,12 @@ section {
 
 .image-row img {
   margin: 0 15px;
-  transition:transform 0.2s;
+  transition: transform 0.2s;
 }
 
 .image-row img:hover {
   transform: scale(1.1);
 }
-
 
 /* home utama */
 .About {
@@ -184,7 +179,7 @@ section {
   width: 640px;
   height: auto;
 }
-.About-text{
+.About-text {
   text-align: justify;
 }
 .About-text h1 {
@@ -193,26 +188,23 @@ section {
   margin: 0.2rem;
 }
 
-
 /* Futures */
-#Cars{
+#Futures {
   margin-top: -99px;
   justify-content: center;
 }
 
-#Cars h1 {
-  font-size: 2rem;
+#Futures h1 {
   padding-bottom: 12px;
   text-align: center;
 }
-#Cars p{
+#Futures p {
   text-align: center;
   padding: 12px;
   margin: 9px;
 }
 
-
-#Cars .image-row img{
+#Futures .image-row img {
   display: flex;
   justify-content: center;
   padding: 15px;
@@ -220,23 +212,17 @@ section {
   transition: transform 0.2s;
 }
 
-#Cars .image-row img:hover{
+#Futures .image-row img:hover {
   transform: scale(1.02);
-
 }
 
 /* video */
-
 iframe {
   position: relative;
-  top: 400px;
+  top: 304px;
   left: 50%;
-  height: 790px;
-  width: 100%;
-  padding: 0;
   transform: translate(-50%, -50%);
 }
-
 
 /* footer */
 footer {
@@ -247,14 +233,10 @@ footer {
 
 #ContactUs {
   display: flex;
-  position: relative;
-  justify-content: center;
-  
 }
 
 #ContactUs h2 {
   margin-top: 0;
-  padding: 10px;
   padding-bottom: 20px;
 }
 
@@ -268,7 +250,7 @@ footer {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding-bottom: 9px;
+  padding-bottom: 13px;
 }
 
 #ContactUs img {
@@ -280,10 +262,110 @@ footer {
   color: white;
 }
 
-footer p{
+footer p {
   position: relative;
   text-align: center;
   padding-bottom: 9px;
 }
 
+/*Cars Page*/
+.heading h2 {
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+  color:#ff702a;
+}
+
+.heading h3 {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  margin: auto;
+}
+
+.row-list {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Mengatur 2 kolom dengan lebar yang sama */
+  grid-gap: 20px; /* Jarak antar kolom */
+}
+
+.row-list,
+.row-list > .column-cars {
+  padding: 8px;
+}
+
+.column-cars {
+}
+
+.row-list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.content:hover {
+  border: #ff702a 1px solid;
+  transform: scale(1.1);
+}
+
+.content img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.content button {
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  transition: transform 0.2s;
+  background-color: #ff702a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.09rem;
+}
+
+.content button:hover {
+  transform: scale(1.05);
+  background-color: #c24a0e;
+}
+
+/* Contact */
+.contact {
+  max-width: 1400px;
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+  justify-content: center;
+  
+}
+
+.info {
+  max-width: 500px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contact .form {
+  max-width: 500px;
+}
+
+.contact .form input {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
 
