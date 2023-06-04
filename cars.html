@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigasi -->
+
+      <!-- menu logo dan navbar -->
+      <header id="header">
+        <a href="index.html" class="logo">RenCars</a>
+        <ul class="navbar" id="navbar">
+          <li><a href="#About">About</a></li>
+          <li><a href="cars.html">Cars</a></li>
+          <li><a href="#Futures">News</a></li>
+          <li>
+            <button><a href="contact.html">Contact Us</a></button>
+          </li>
+        </ul>
+      </header>
+
+      <section class="heading">
+        <h2>Our Cars</h2>
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          consequatur asperiores iusto quis saepe suscipit officia unde rem
+          aliquam. Quo molestiae voluptates est! Enim aliquid cupiditate
+          nesciunt sapiente, velit blanditiis.
+        </h3>
+      </section>
+
+      <div class="image-row">
+        <img
+          src="img/BMW Logo.png"
+          alt="Image 1"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('bmw')"
+        />
+        <img
+          src="img/Honda logo.jpeg"
+          alt="Image 2"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('honda')"
+        />
+        <img
+          src="img/Nissan Logo.png"
+          alt="Image 3"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('nissan')"
+        />
+        <img
+          src="img/Toyota logo.jpeg"
+          alt="Image 4"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('toyota')"
+        />
+        <img
+          src="img/Hyundai Logo.jpeg"
+          alt="Image 5"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('hyundai')"
+        />
+        <img
+          src="img/Daihatsu Logo.jpeg"
+          alt="Image 6"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('daihatsu')"
+        />
+        <img
+          src="img/mitshubisi logo.jpeg"
+          alt="Image 7"
+          width="auto"
+          height="120px"
+          onclick="filterCarsByBrand('mitsubishi')"
+        />
+      </div>
+
+      <br /><br />
+
+      <div class="row-list">
+        <div class="column bmw">
+          <div class="content">
+            <img src="img/BMW 540i.jpeg" alt="" />
+            <h4>BMW 5401</h4>
+            <p>800.000 / 24 jam</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column bmw">
+          <div class="content">
+            <img src="img/BMW 7 Series.jpeg" alt="" />
+            <h4>BMW 7</h4>
+            <p>800.000 / 24 jam</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column honda">
+          <div class="content">
+            <img src="img/honda Yaris.jpeg" alt="" />
+            <h4>Honda Yaris</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column honda">
+          <div class="content">
+            <img src="img/honda jazz.jpeg" alt="" />
+            <h4>Honda jazz</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column nissan">
+          <div class="content">
+            <img src="img/Nissan Rogue’s.jpeg" alt="" />
+            <h4>Nissa Rogue’s</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column nissan">
+          <div class="content">
+            <img src="img/Nissan Sentra.jpeg" alt="" />
+            <h4>Nissa Sentra</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column toyota">
+          <div class="content">
+            <img src="img/Toyota Avanza.jpeg" alt="" />
+            <h4>Toyota Avanza</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column toyota">
+          <div class="content">
+            <img src="img/Toyota Innova.jpeg" alt="" />
+            <h4>Toyota Innova</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column toyota">
+          <div class="content">
+            <img src="img/Toyota supra mk4.jpeg" alt="" />
+            <h4>Toyota Supra MK4</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column hyundai">
+          <div class="content">
+            <img src="img/Hyundai Palisade.jpeg" alt="" />
+            <h4>Hyundai Palisade</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column hyundai">
+          <div class="content">
+            <img src="img/Hyundai ix35.jpeg" alt="" />
+            <h4>Hyundai</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column daihatsu">
+          <div class="content">
+            <img src="img/daihatsu terios.jpeg" alt="" />
+            <h4>Daihatsu Terios</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column daihatsu">
+          <div class="content">
+            <img src="img/Daihatsu Xenia.jpeg" alt="" />
+            <h4>Daihatsu Xenia</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+        <div class="column mitsubishi">
+          <div class="content">
+            <img src="img/Mitsubishi Pajero Sport.png" alt="" />
+            <h4>Mitsubishi Pajero</h4>
+            <p>Lorem ipsum dolor sit amet consec.</p>
+            <button>Booking Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <section id="ContactUs">
+        <!-- div footer 1 -->
+        <div class="contact-us1">
+          <h2>Layanan</h2>
+          <ul>
+            <li>Rental Mobil Harian</li>
+            <li>Rental Mobil Mingguan</li>
+            <li>Rental Mobil Bulanan</li>
+            <li>Antar-Jemput Bandara</li>
+          </ul>
+        </div>
+
+        <!-- div footer 2 -->
+        <div class="contact-us2">
+          <h2>Kebijakan Privasi | Syarat dan Ketentuan</h2>
+          <ul>
+            <li>Rental Mobil Profesional dengan Layanan Terbaik.</li>
+            <li>Menyediakan Armada Terlengkap untuk Perjalanan Anda.</li>
+            <li>
+              Bergabunglah dengan Komunitas Rencars untuk Penawaran Spesial.
+            </li>
+          </ul>
+        </div>
+
+        <!-- div footer 3 -->
+        <div class="contact-us3">
+          <h2>Contact Us</h2>
+
+          <ul>
+            <li>
+              <img src="img/email.png" alt="Email Logo" />
+              <a href="mailto:info@m.com"> info@rentalmobilTelkom.com</a>
+            </li>
+            <li>
+              <img src="img/IG.png" alt="IG Logo" />
+              <a href="http//instagram.com">@dho</a>
+            </li>
+            <li>
+              <img src="img/phone.png" alt="Phone Icon" />
+              <a href="tel:+6287887300377">+62-878-773-003-77</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <p>© 2023 Rencars. Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
